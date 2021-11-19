@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutiseadmed</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <svg class="logo__icon">
+                <use xlink:href="css/icons.svg#icon-mobile"></use>
+            </svg>
+            <h2 class="logo__text">Telo24</h2>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Avaleht</a></li>
+                <li><a href="#products">Tooted</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <div class="menu-bars" id="menu-bars">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <!-- Menu overlay -->
+    <div class="overlay" id="overlay">
+        <!-- Menu items -->
+        <nav>
+          <ul class="overlay__list">
+            <li class="overlay__item" id="nav-1"><a href="#">Avaleht</a></li>
+            <li class="overlay__item" id="nav-2"><a href="#products">Tooted</a></li>
+            <li class="overlay__item" id="nav-3"><a href="#contact">Kontakt</a></li>
+          </ul>
+        </nav>
+    </div>
+    <section class="banner">
+        <div class="banner__box">
+            <h1>Kasutatud nutiseadmete ost ja müük</h1>
+            <p>Hetkel kõik tooted tutvumishindadega</p>
+            <a href="#contact" class="btn btn--blue">Paku oma vana nutiseade meile</a>
+        </div>
+    </section>
+
+    <section class="section-product" id="products">
+            <!-- <div class="product__head">
+                <h2 class="product__head--title">Hetkel kõik tooted tutvumishinnaga</h2>
+            </div> -->
+        <div class="container">
+            <div class="product">
+                <div class="product__list">
+                    <div class="product__item">
+                        <img src="css/img/pilt6.jpg" alt="iphone">
+                        <p class="product__item--name">Iphone X</p>
+                        <div class="product__details">
+                            <a class="btn btn--green" href="detail.html">Vaata lähemalt</a>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <img src="css/img/pilt6.jpg" alt="iphone">
+                        <p class="product__item--name">Iphone X</p>
+                        <div class="product__details">
+                            <a class="btn btn--green" href="detail.html">Vaata lähemalt</a>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <img src="css/img/pilt6.jpg" alt="iphone">
+                        <p class="product__item--name">Iphone X</p>
+                        <div class="product__details">
+                            <a class="btn btn--green" href="detail.html">Vaata lähemalt</a>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <img src="css/img/pilt6.jpg" alt="iphone">
+                        <p class="product__item--name">Iphone X</p>
+                        <div class="product__details">
+                            <a class="btn btn--green" href="detail.html">Vaata lähemalt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="section-contact" id="contact">
+            <div class="contact">
+                <div class="contact__head">
+                    <h2>Ostame kokku uusi ja kasutatud nutiseadmeid</h2>
+                </div>
+                <form action="#">
+                    <div class="contact__body">
+                        <div class="contact__body--1">
+                            <div class="contact--cont">
+                                <div class="contact__group">
+                                    <label for="nimi">Nimi</label>
+                                    <input type="text">
+                                </div>
+                                <div class="contact__group">
+                                    <label for="email">Email</label>
+                                    <input type="email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__body--2">
+                            <div class="contact--cont">
+                                <div class="contact__group">
+                                    <label for="telefon">Telefoni nr</label>
+                                    <input type="text">
+                                </div>
+                                <div class="contact__group">
+                                    <label for="telefon_mudel">Nutiseadme mudel</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__body">
+                        <div class="contact__body--1">
+                            <div class="contact__textarea">
+                                <label for="kirjeldus">Kirjeldus</label>
+                                <textarea name="text" id="text" cols="70%" rows="10"></textarea>
+                                <div class="contact__cent">
+                                    <button class="contact__send">Saada</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+</body>
+</html>
